@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 9e53e881e4e0f439a8d4f11dcf669525
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2498672906922211746
+    second: Clam3_NormalState (Ghost3)_0
+  - first:
+      213: 5077631687050705484
+    second: Clam3_NormalState (Ghost3)_1
+  - first:
+      213: -2071373228020041033
+    second: Clam3_NormalState (Ghost3)_2
+  - first:
+      213: 3688438581692082416
+    second: Clam3_NormalState (Ghost3)_3
+  - first:
+      213: 4379103675077438837
+    second: Clam3_NormalState (Ghost3)_4
+  - first:
+      213: 8124489685911531297
+    second: Clam3_NormalState (Ghost3)_5
+  - first:
+      213: 8047334701536888185
+    second: Clam3_NormalState (Ghost3)_6
+  - first:
+      213: 486063301381058294
+    second: Clam3_NormalState (Ghost3)_7
+  - first:
+      213: 8562089177889232707
+    second: Clam3_NormalState (Ghost3)_8
+  - first:
+      213: 2313974487945653765
+    second: Clam3_NormalState (Ghost3)_9
+  - first:
+      213: -4513281126716609081
+    second: Clam3_NormalState (Ghost3)_10
+  - first:
+      213: -6968422512214509314
+    second: Clam3_NormalState (Ghost3)_11
+  - first:
+      213: -7506878326878090252
+    second: Clam3_NormalState (Ghost3)_12
+  - first:
+      213: -2303024639930207646
+    second: Clam3_NormalState (Ghost3)_13
+  - first:
+      213: -2456042269581677223
+    second: Clam3_NormalState (Ghost3)_14
+  - first:
+      213: 5900883593376544102
+    second: Clam3_NormalState (Ghost3)_15
+  - first:
+      213: 5062557808270163249
+    second: Clam3_NormalState (Ghost3)_16
+  - first:
+      213: -3305496446354685669
+    second: Clam3_NormalState (Ghost3)_17
+  - first:
+      213: -8787207397389825997
+    second: Clam3_NormalState (Ghost3)_18
+  - first:
+      213: 3866094954865477901
+    second: Clam3_NormalState (Ghost3)_19
+  - first:
+      213: -1534055469315780285
+    second: Clam3_NormalState (Ghost3)_20
+  - first:
+      213: -1377533676486898049
+    second: Clam3_NormalState (Ghost3)_21
+  - first:
+      213: -4906864660601301036
+    second: Clam3_NormalState (Ghost3)_22
+  - first:
+      213: 5282005267514494753
+    second: Clam3_NormalState (Ghost3)_23
+  - first:
+      213: -5069711244471740490
+    second: Clam3_NormalState (Ghost3)_24
+  - first:
+      213: 5786175339354597788
+    second: Clam3_NormalState (Ghost3)_25
+  - first:
+      213: -5644339840669047045
+    second: Clam3_NormalState (Ghost3)_26
+  - first:
+      213: -2530023901545154846
+    second: Clam3_NormalState (Ghost3)_27
+  - first:
+      213: -1549449154027727505
+    second: Clam3_NormalState (Ghost3)_28
+  - first:
+      213: -4230726449285740422
+    second: Clam3_NormalState (Ghost3)_29
+  - first:
+      213: 4877621050811000492
+    second: Clam3_NormalState (Ghost3)_30
+  - first:
+      213: -5422086539833120530
+    second: Clam3_NormalState (Ghost3)_31
+  - first:
+      213: 3657365751483451353
+    second: Clam3_NormalState (Ghost3)_32
+  - first:
+      213: -7324799281554050996
+    second: Clam3_NormalState (Ghost3)_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bb22108be9349528010c59acf94793
+      internalID: -195307190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7837963a8d0d243f6a0aae1b6c63b205
+      internalID: -420537909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7224cf27da68642978d1d3cc7748d84a
+      internalID: -1459790734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc43c3d655ce454a8c6b2b8468afac3
+      internalID: -414605410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928661a9b40eb4f269701dcf29f479c5
+      internalID: -1435301630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b83ca62e92dd4db6a158d9f1c952939
+      internalID: 1835835259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b27d565748ce465dbe3a6e8d3be8d34
+      internalID: 788139664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4209150e44d954f2f8654de50fcdca80
+      internalID: -744503261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4e350a4d3874df397c6e423f3360b3
+      internalID: 221780315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821de110571a8448e989d729cbb8a8b8
+      internalID: 477714087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927fee4427483486fb8bfe9ba923fc01
+      internalID: 2023215662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clam3_NormalState (Ghost3)_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812220bdb7d514534ac17ceb04a5d478
+      internalID: 354564775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1d432295bb8f8404b89b6766e391ba62
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Clam3_NormalState (Ghost3)_0: -195307190
+      Clam3_NormalState (Ghost3)_1: -420537909
+      Clam3_NormalState (Ghost3)_10: 2023215662
+      Clam3_NormalState (Ghost3)_11: 354564775
+      Clam3_NormalState (Ghost3)_2: -1459790734
+      Clam3_NormalState (Ghost3)_3: -414605410
+      Clam3_NormalState (Ghost3)_4: -1435301630
+      Clam3_NormalState (Ghost3)_5: 1835835259
+      Clam3_NormalState (Ghost3)_6: 788139664
+      Clam3_NormalState (Ghost3)_7: -744503261
+      Clam3_NormalState (Ghost3)_8: 221780315
+      Clam3_NormalState (Ghost3)_9: 477714087
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
