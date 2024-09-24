@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -250,7 +250,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Power_Pearl (PowerPellet)_0: -381480684983650354
+      Power_Pearl (PowerPellet)_1: 2694066517414041624
+      Power_Pearl (PowerPellet)_2: -6606611369059311578
+      Power_Pearl (PowerPellet)_3: 1226831813653337059
+      Power_Pearl (PowerPellet)_4: 1144799364077301977
+      Power_Pearl (PowerPellet)_5: 394336616253631098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

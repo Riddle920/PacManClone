@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6ddc8d44d7b1a44bfbecce99ac899583
+guid: fdd13f27b0b554e28a41f5ca083afd8f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4091395417329284665
-    second: Strawbery (Pellet)_0
+      213: -436442910804329444
+    second: Background_Sand_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Strawbery (Pellet)_0
+      name: Background_Sand_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 11
-        width: 90
-        height: 110
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c94d6a8b817837c0800000000000000
-      internalID: -4091395417329284665
+      spriteID: c1c35c82c7171f9f0800000000000000
+      internalID: -436442910804329444
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Strawbery (Pellet)_0: -4091395417329284665
+      Background_Sand_0: -436442910804329444
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
