@@ -6,6 +6,7 @@ public class Tweener : MonoBehaviour
 {
 
     public GameObject crab;
+    public Animator animator;
     
     private List<Tween> activeTweens;
     private int tweenIndex;
@@ -37,18 +38,31 @@ public class Tweener : MonoBehaviour
         
             if (distance > 0.1f)
             {
+                animator.SetFloat("Horizontal", (activeTween.EndPos - activeTween.StartPos).normalized.x);
+                animator.SetFloat("Vertical", (activeTween.EndPos - activeTween.StartPos).normalized.y);
+                animator.SetFloat("Speed", activeTween.EndPos.sqrMagnitude);
+                
                 float elapsedTime = Time.time - activeTween.StartTime;
                 float time = elapsedTime / activeTween.Duration;
                 activeTween.Target.position = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, time);
             }
             else if (distance == 0)
             {
+                animator.SetFloat("Speed", 0);
+                if (animator.GetBool("isDead") == false)
+                {
+                    animator.SetBool("isDead", true);
+                } 
+                
                 float elapsedTime = Time.time - activeTween.StartTime;
                 float time = elapsedTime / activeTween.Duration;
                 activeTween.Target.position = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, time);
+                animator.SetFloat("Speed", 0);
+                
                 
                 if (activeTween.Duration - elapsedTime <= 0)
                 {
+                    animator.SetBool("isDead", false);
                     activeTween.Target.position = activeTween.EndPos;
                     tweenIndex = (tweenIndex + 1) % activeTweens.Count;
                     activeTweens[tweenIndex].StartTime = Time.time;

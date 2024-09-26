@@ -587,6 +587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crab: {fileID: 741608869}
+  animator: {fileID: 741608872}
 --- !u!1 &849484497
 GameObject:
   m_ObjectHideFlags: 0
