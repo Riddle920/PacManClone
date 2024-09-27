@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackgroundMusic : MonoBehaviour
+public class MusicController : MonoBehaviour
 {
 
     public AudioSource currentlyPlaying;
@@ -19,7 +19,7 @@ public class BackgroundMusic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!currentlyPlaying.isPlaying && currentlyPlaying.clip != normalState)
+        if (!currentlyPlaying.isPlaying)
         {
             currentlyPlaying.clip = normalState;
             currentlyPlaying.Play();

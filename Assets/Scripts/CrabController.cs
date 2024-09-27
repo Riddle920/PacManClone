@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tweener : MonoBehaviour
+public class CrabController : MonoBehaviour
 {
 
     public GameObject crab;
     public Animator animator;
+    public AudioSource audioSource;
     
     private List<Tween> activeTweens;
     private int tweenIndex;
@@ -41,6 +42,11 @@ public class Tweener : MonoBehaviour
                 animator.SetFloat("Horizontal", (activeTween.EndPos - activeTween.StartPos).normalized.x);
                 animator.SetFloat("Vertical", (activeTween.EndPos - activeTween.StartPos).normalized.y);
                 animator.SetFloat("Speed", activeTween.EndPos.sqrMagnitude);
+
+                if (!audioSource.isPlaying)
+                {
+                    audioSource.Play();
+                }
                 
                 float elapsedTime = Time.time - activeTween.StartTime;
                 float time = elapsedTime / activeTween.Duration;
