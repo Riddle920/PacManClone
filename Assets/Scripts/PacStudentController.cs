@@ -10,7 +10,8 @@ public class PacStudentController : MonoBehaviour
     public Animator animator;
     public AudioSource audioSource;
     public Grid grid;
-    public Tilemap tilemap;
+    public Tilemap walls;
+    public Tilemap pellets;
 
     private float duration;
 
@@ -36,6 +37,10 @@ public class PacStudentController : MonoBehaviour
         cellOffset = new Vector3(0.5f, 0.5f, 0);
         startPos = new Vector3Int(-11, 1, 0);
         playerTrans.position = grid.CellToWorld(startPos) + cellOffset;
+        
+        animator.SetFloat("Horizontal", 0);
+        animator.SetFloat("Vertical", 0);
+        animator.SetFloat("Speed", 0);
     }
 
     // Update is called once per frame
@@ -77,7 +82,7 @@ public class PacStudentController : MonoBehaviour
             targetPos = startPos + lastInput;
             tarWorldPos = grid.CellToWorld(targetPos) + cellOffset;
             
-            if (tilemap.GetTile(targetPos) is null)
+            if (walls.GetTile(targetPos) is null)
             { 
                 currentInput = lastInput;
                 startPos = targetPos;
@@ -90,11 +95,17 @@ public class PacStudentController : MonoBehaviour
         targetPos = startPos + currentInput;
         tarWorldPos = grid.CellToWorld(targetPos) + cellOffset;
 
-        if (tilemap.GetTile(targetPos) is null)
+        if (walls.GetTile(targetPos) is null)
         {
             startPos = targetPos;
             lerping = true;
             StartCoroutine(LerpPlayer(tarWorldPos));
+        }
+        else
+        {
+            animator.SetFloat("Horizontal", 0);
+            animator.SetFloat("Vertical", 0);
+            animator.SetFloat("Speed", 0);
         }
     }
     
@@ -104,6 +115,9 @@ public class PacStudentController : MonoBehaviour
         float currentTime = 0.0f;
         while (currentTime < duration)
         {
+            animator.SetFloat("Horizontal", (target - startingPos).normalized.x);
+            animator.SetFloat("Vertical", (target - startingPos).normalized.y);
+            animator.SetFloat("Speed", target.sqrMagnitude);
             playerTrans.position = Vector3.Lerp(startingPos, target, currentTime / duration);
             currentTime += Time.deltaTime;
             yield return null;

@@ -3595,7 +3595,8 @@ MonoBehaviour:
   animator: {fileID: 741608872}
   audioSource: {fileID: 741608874}
   grid: {fileID: 1280415520}
-  tilemap: {fileID: 1280415526}
+  walls: {fileID: 1280415526}
+  pellets: {fileID: 166932906}
 --- !u!82 &741608874
 AudioSource:
   m_ObjectHideFlags: 0
