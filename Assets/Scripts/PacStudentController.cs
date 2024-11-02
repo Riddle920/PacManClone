@@ -8,7 +8,9 @@ public class PacStudentController : MonoBehaviour
 {
     
     public Animator animator;
-    public AudioSource audioSource;
+    public AudioSource moveSound;
+    public AudioClip walk;
+    public AudioClip eat;
     public Grid grid;
     public Tilemap walls;
     public Tilemap pellets;
@@ -33,11 +35,11 @@ public class PacStudentController : MonoBehaviour
         playerTrans = gameObject.transform;
         duration = 0.2f;
         lerping = false;
+        moveSound.clip = eat;
         
         cellOffset = new Vector3(0.5f, 0.5f, 0);
         startPos = new Vector3Int(-11, 1, 0);
         playerTrans.position = grid.CellToWorld(startPos) + cellOffset;
-        
         animator.SetFloat("Horizontal", 0);
         animator.SetFloat("Vertical", 0);
         animator.SetFloat("Speed", 0);
@@ -66,9 +68,10 @@ public class PacStudentController : MonoBehaviour
             lastInput = Vector3Int.right;
         }
 
-        if (!lerping && lastInput != null)
+        if (!lerping && lastInput != Vector3Int.zero)
         {
             MovePlayer();
+            MakeSound();
         }
     }
 
@@ -95,7 +98,7 @@ public class PacStudentController : MonoBehaviour
         targetPos = startPos + currentInput;
         tarWorldPos = grid.CellToWorld(targetPos) + cellOffset;
 
-        if (walls.GetTile(targetPos) is null)
+        if (walls.GetTile(targetPos) is null && currentInput != Vector3Int.zero)
         {
             startPos = targetPos;
             lerping = true;
@@ -108,7 +111,7 @@ public class PacStudentController : MonoBehaviour
             animator.SetFloat("Speed", 0);
         }
     }
-    
+
     private IEnumerator LerpPlayer(Vector3 target)
     {
         Vector3 startingPos = playerTrans.position;
@@ -118,12 +121,28 @@ public class PacStudentController : MonoBehaviour
             animator.SetFloat("Horizontal", (target - startingPos).normalized.x);
             animator.SetFloat("Vertical", (target - startingPos).normalized.y);
             animator.SetFloat("Speed", target.sqrMagnitude);
+
             playerTrans.position = Vector3.Lerp(startingPos, target, currentTime / duration);
             currentTime += Time.deltaTime;
             yield return null;
         }
-        
+
         playerTrans.position = target;
         lerping = false;
+
     }
+
+    private void MakeSound()
+    {
+        moveSound.clip = pellets.GetTile(startPos) is not null ? eat : walk;
+
+        if (moveSound.clip != eat || !moveSound.isPlaying)
+        {
+            if (animator.GetFloat("Speed") != 0)
+            {
+                moveSound.Play();
+            }
+        }
+    }
+
 }
