@@ -1210,9 +1210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe8ca6a7e9fd34110890d3b339ad12e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crab: {fileID: 741608869}
   animator: {fileID: 741608872}
   audioSource: {fileID: 741608874}
+  grid: {fileID: 1280415520}
 --- !u!82 &741608874
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11177,6 +11177,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ece4132c6ebc54be9b172b49ba8bfd10, type: 3}
+--- !u!156049354 &1280415520 stripped
+Grid:
+  m_CorrespondingSourceObject: {fileID: 3099598926363620280, guid: ece4132c6ebc54be9b172b49ba8bfd10, type: 3}
+  m_PrefabInstance: {fileID: 1280415519}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1287898745
 GameObject:
   m_ObjectHideFlags: 0
