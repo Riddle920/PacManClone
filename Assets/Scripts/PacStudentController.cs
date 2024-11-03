@@ -14,9 +14,9 @@ public class PacStudentController : MonoBehaviour
     public Grid grid;
     public Tilemap walls;
     public Tilemap pellets;
-
+    public ParticleSystem trail;
+    
     private float duration;
-
     private Transform playerTrans;
     private Vector3Int startPos;
     private Vector3Int lastInput;
@@ -121,6 +121,8 @@ public class PacStudentController : MonoBehaviour
             animator.SetFloat("Horizontal", (target - startingPos).normalized.x);
             animator.SetFloat("Vertical", (target - startingPos).normalized.y);
             animator.SetFloat("Speed", target.sqrMagnitude);
+            
+            trail.Play();
 
             playerTrans.position = Vector3.Lerp(startingPos, target, currentTime / duration);
             currentTime += Time.deltaTime;
